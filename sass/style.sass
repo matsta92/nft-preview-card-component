@@ -4,18 +4,10 @@
     margin: 0
     padding: 0
     box-sizing: border-box
-
-.attribution 
-    margin: 30px 0
-    font-size: 11px
-    text-align: center
-    
-
-.attribution a 
-    color: hsl(228, 45%, 44%)
     
 body
     display: flex
+    position: relative
     justify-content: center
     align-items: center
     flex-direction: column
@@ -119,6 +111,15 @@ body
 
 .author-link:hover
     color: $cyan
+
+footer 
+    position: absolute
+    bottom: 1em
+    font-size: 11px
+
+footer a
+    color: hsl(228, 45%, 44%)
+
 
 @media (max-width: 390px)
     .preview-card
